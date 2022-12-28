@@ -1,0 +1,238 @@
+/* specialities */
+.p-specialities .c-section {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+}
+
+.p-specialities .title {
+    line-height: 2.375rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.p-specialities .subtitle {
+    line-height: 1.875rem;
+    margin-top: 0.25rem;
+}
+
+.p-specialities .c-section__items {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    grid-template-columns: minmax(0, 1fr) !important; /* 258px/330 */
+
+    margin-inline: -1rem;
+    width: calc(100% + 2rem) !important;
+}
+
+@media (min-width: 30em) {
+    .p-specialities .c-section__items {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (min-width: 48em) {
+    .p-specialities .c-section {
+        padding-top: 1.875rem !important;
+        padding-bottom: 50px !important;
+    }
+
+    .p-specialities .c-section__items {
+        margin-inline: 0;
+        width: 100% !important;
+        gap: 1.875rem;
+        margin-top: 2rem;
+        margin-bottom: 2.125rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .p-specialities .c-section {
+        padding-top: 2.75rem !important;
+        padding-bottom: 75px !important;
+    }
+
+    .p-specialities .c-section__items {
+        gap: 2.5rem !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (min-width: 80em) {
+    .p-specialities .c-section__items {
+        gap: 2.5rem;
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+}
+
+/* specialities-card */
+.specialities-card {
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.25rem;
+    border: 0;
+    border-top: 1px solid;
+    border-radius: 0;
+}
+.specialities-card:last-child {
+    margin-bottom: 0;
+}
+
+.specialities-card__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+}
+
+.specialities-card .card__img-wrapper {
+    min-width: 92px;
+    width: 92px;
+    height: 92px;
+    max-width: 100%;
+    padding: 1.25rem;
+    margin: 0;
+}
+
+.specialities-card .card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: transparent !important;
+}
+
+.specialities-card .card__content {
+    margin-top: 0;
+    width: 100%;
+    text-align: start;
+    max-width: 60%;
+}
+
+.specialities-card .card__title {
+    letter-spacing: normal;
+    line-height: 1.875rem;
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+}
+.specialities-card .card__title::-webkit-scrollbar {
+    /* opacity: 0.5; */
+    /* width: 10px; */
+}
+
+.specialities-card .card__subtitle {
+    line-height: 1.875rem;
+}
+
+.specialities-card .card__btn {
+    line-height: 1.875rem;
+    width: fit-content;
+    padding: 5px 33px;
+    margin-top: 0.625rem;
+    min-height: 2.5rem;
+    text-align: center;
+}
+
+@media (min-width: 30rem) {
+    .specialities-card {
+        padding: 1.25rem;
+    }
+}
+
+@media (min-width: 48em) {
+    .specialities-card {
+        text-align: start;
+        padding: 2rem 1.5rem 1.5rem;
+        flex-direction: column;
+        margin-bottom: 0;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+    .specialities-card .card__img-wrapper {
+        min-width: 126px;
+        width: 126px;
+        height: 126px;
+        margin-top: 0.75rem;
+        margin-bottom: 0;
+    }
+    .specialities-card .card__content {
+        margin-top: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    .specialities-card .card__btn {
+        margin-top: 1.25rem;
+        padding: 0.625rem;
+        min-height: 3.125rem;
+        height: 3.125rem;
+        margin-inline: auto;
+        width: 100%;
+    }
+}
+
+/* specialities__faq */
+.specialities__faq {
+    /* margin-top: 30px; */
+    padding-top: 30px;
+}
+
+.speciality__description {
+    padding-block: 30px;
+}
+
+.specialities__faq-heading {
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+}
+
+.specialities__faq-list {
+    margin-block: 20px 40px;
+}
+
+@media (min-width: 48em) {
+    .specialities__faq {
+        /* margin-top: 50px; */
+        padding-top: 50px;
+    }
+    .speciality__description {
+        padding-block: 50px;
+    }
+    .specialities__faq-heading {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .specialities__faq-list {
+        margin-block: 30px 60px;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .specialities__faq {
+        /* margin-top: 75px; */
+        padding-top: 65px;
+    }
+    .speciality__description {
+        padding-block: 65px;
+    }
+    .specialities__faq-heading {
+        font-size: 1.75rem;
+        margin-bottom: 38px;
+    }
+    .specialities__faq-list {
+        margin-block: 38px 90px;
+    }
+}

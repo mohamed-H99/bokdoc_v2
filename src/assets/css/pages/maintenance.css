@@ -1,0 +1,26 @@
+/* maintenance */
+.p-maintenance .c-box {
+    margin-top: clamp(2.1875rem, 8vw, 70px);
+}
+.p-maintenance .box--icon {
+    width: 12.375rem;
+    min-width: 12.375rem;
+    height: 12.375rem;
+}
+.p-maintenance .c-btn {
+    min-height: 2.1875rem;
+    height: 2.1875rem;
+}
+.p-maintenance .text-md {
+    font-size: 1rem;
+}
+.p-maintenance .subtitle {
+    line-height: 2.1875rem;
+}
+.p-maintenance .subtitle-2 {
+    line-height: 2.375rem;
+}
+
+.p-maintenance .title {
+    line-height: 3.125rem;
+}

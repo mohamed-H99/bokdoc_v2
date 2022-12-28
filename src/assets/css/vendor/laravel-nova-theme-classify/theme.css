@@ -1,0 +1,128 @@
+/************************* Global colors **************************/
+:root {
+    --transparent: transparent;
+    --black: #22292f;
+    --white: white;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --danger: #e74444;
+    --success: #21b978;
+    --warning: #ffeb3b;
+    --info: #03a9f4;
+    --primary: #4099de;
+    --primary-dark: #297ec0;
+    --primary-70: rgba(64, 153, 222, 0.7);
+    --primary-50: rgba(64, 153, 222, 0.5);
+    --primary-30: rgba(64, 153, 222, 0.3);
+    --primary-10: rgba(64, 153, 222, 0.1);
+    --logo: #252d37;
+    --sidebar-icon: #b3c1d1;
+    --20: #f6fbff;
+    --30: #f4f7fa;
+    --40: #eef1f4;
+    --50: #e3e7eb;
+    --60: #bacad6;
+    --70: #b3b9bf;
+    --80: #7c858e;
+    --90: #252d37;
+    --90-half: rgba(40, 54, 61, 0.5);
+}
+
+/************************* Header **************************/
+.page-header {
+}
+
+.page-header .site-title {
+}
+
+.page-header .global-search {
+}
+
+.page-header .user-name {
+}
+
+.page-header .user-menu {
+}
+
+/************************* Sidebar **************************/
+.page-sidebar {
+}
+
+.page-sidebar .bg-logo {
+}
+
+.page-sidebar h3 {
+}
+
+.page-sidebar ul li {
+}
+
+/************************* Content **************************/
+.page-content {
+}
+
+.page-footer {
+}
+
+/************************* Resource Index **************************/
+.resource-index {
+}
+
+.resource-index .index-actions-container {
+}
+
+.resource-index .index-actions-container .action-select {
+}
+
+.resource-index .index-actions-container .action-select select {
+}
+
+.resource-index .index-actions-container .action-select button {
+}
+
+.resource-index .index-actions-container .delete-menu {
+}
+
+.resource-index .index-actions-container .filters-select {
+}
+
+.resource-index .index-actions-container .filters-menu {
+}
+
+.resource-index .index-actions-container .filters-menu .filter-title {
+}
+
+.resource-index .index-actions-container .filters-menu .filter-options {
+}
+
+/************************* Resource Detail **************************/
+.resource-detail {
+}
+
+.resource-detail .details-actions-container {
+}
+
+/************************* Resource Forms **************************/
+.resource-form {
+}
+
+.resource-form .form-group {
+}
+
+.resource-form .form-footer {
+}
+
+.resource-form .form-errors {
+}
+
+.resource-edit {
+}
+
+.resource-create {
+}
+
+/************************* Cards **************************/
+.card-panel-container {
+}
+
+.card-panel-container .card-panel {
+}

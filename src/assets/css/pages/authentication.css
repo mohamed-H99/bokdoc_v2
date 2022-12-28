@@ -1,0 +1,75 @@
+/* login & register */
+.p-login .comp-btn,
+.p-register .comp-btn {
+    --min-h: 2.8125rem !important;
+}
+.p-login .comp-btn {
+    margin-top: 1.25rem;
+}
+
+/* activation */
+.p-activation .form-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    direction: ltr !important;
+}
+
+.p-activation .form-box {
+    aspect-ratio: 76/65;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0 !important;
+    font-size: 1.875rem;
+}
+
+.p-activation .form-box:focus {
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.1);
+}
+
+.p-activation .form-line {
+    margin: 1.875rem 0;
+}
+
+.p-activation .c-btn {
+    min-height: 2.8125rem;
+    height: 2.8125rem;
+}
+.p-activation .c-btn--link:disabled {
+    text-decoration: none !important;
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.p-activation .c-btn--link:hover,
+.p-activation .c-btn--link:focus {
+    text-decoration: underline;
+}
+
+@media (min-width: 48em) {
+    .p-activation .form-boxes {
+        grid-template: 1.375rem;
+    }
+}
+
+/* forgot/reset-password */
+.p-forgot-password,
+.p-reset-password {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-forgot-password .comp-btn,
+.p-reset-password .comp-btn {
+    --min-h: 2.5rem;
+    margin-inline-end: 0;
+    margin-inline-start: auto;
+    margin-top: 0.75rem;
+    width: fit-content;
+    max-width: 100%;
+}

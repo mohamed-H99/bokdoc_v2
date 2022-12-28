@@ -1,0 +1,275 @@
+<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="523.626"
+                        height="410"
+                        viewBox="0 0 523.626 410"
+                    >
+                        <defs>
+                            <filter
+                                id="6u5a49k6da"
+                                x="122"
+                                y="66.75"
+                                width="401.626"
+                                height="170"
+                                filterUnits="userSpaceOnUse"
+                            >
+                                <feOffset dy="10" />
+                                <feGaussianBlur
+                                    stdDeviation="10"
+                                    result="blur"
+                                />
+                                <feFlood flood-opacity=".078" />
+                                <feComposite operator="in" in2="blur" />
+                                <feComposite in="SourceGraphic" />
+                            </filter>
+                            <filter
+                                id="k2oxhgyvvb"
+                                x="0"
+                                y="194.25"
+                                width="401.626"
+                                height="170"
+                                filterUnits="userSpaceOnUse"
+                            >
+                                <feOffset dy="10" />
+                                <feGaussianBlur
+                                    stdDeviation="10"
+                                    result="blur-2"
+                                />
+                                <feFlood flood-opacity=".078" />
+                                <feComposite operator="in" in2="blur-2" />
+                                <feComposite in="SourceGraphic" />
+                            </filter>
+                            <filter
+                                id="i5pe6tdvkc"
+                                x="209.626"
+                                y="333"
+                                width="72"
+                                height="72"
+                                filterUnits="userSpaceOnUse"
+                            >
+                                <feOffset dy="3" />
+                                <feGaussianBlur
+                                    stdDeviation="3"
+                                    result="blur-3"
+                                />
+                                <feFlood flood-opacity=".161" />
+                                <feComposite operator="in" in2="blur-3" />
+                                <feComposite in="SourceGraphic" />
+                            </filter>
+                        </defs>
+                        <g data-name="Group 1154">
+                            <g data-name="Group 1148">
+                                <path
+                                    data-name="Path 4688"
+                                    d="M20 0h327a20 20 0 0 1 20 20v389H0V20A20 20 0 0 1 20 0z"
+                                    transform="translate(61.626 1)"
+                                    style="fill: #f5f5f5"
+                                />
+                                <path
+                                    data-name="Rectangle 2188"
+                                    d="M10 0h347a10 10 0 0 1 10 10v39H0V10A10 10 0 0 1 10 0z"
+                                    transform="translate(61.626)"
+                                    style="fill: #24bce3"
+                                />
+                            </g>
+                            <g data-name="Group 1153" style="opacity: 0.05">
+                                <path
+                                    data-name="Union 2"
+                                    d="m99.112 129.5-15.443-.078a2.052 2.052 0 0 1-1.431-3.51l6.395-6.312a28.777 28.777 0 1 1 47.36-31.983 28.8 28.8 0 0 1 8.626 44.424l6.395 6.311a2.053 2.053 0 0 1-1.431 3.511l-26.737.137a28.75 28.75 0 0 1-23.734-12.5zm23.734 8.4 21.753-.113-4.273-4.224a2.052 2.052 0 0 1-.011-2.909 24.674 24.674 0 0 0-1.92-36.591 28.811 28.811 0 0 1-27.99 35.496c-.359 0 1.714.013-6.094-.038a24.549 24.549 0 0 0 18.535 8.379zm-37.12-37.121a24.519 24.519 0 0 0 7.212 17.434 2.051 2.051 0 0 1-.011 2.909l-4.275 4.222 20.953.1c15.158.119 25.477-11.625 25.477-24.664a24.677 24.677 0 1 0-49.353 0zM98.17 111.1a2.051 2.051 0 0 1 0-4.1h24.608a2.051 2.051 0 0 1 0 4.1zm0-8.2a2.051 2.051 0 0 1 0-4.1h24.608a2.051 2.051 0 0 1 0 4.1z"
+                                />
+                                <path
+                                    data-name="Path 4690"
+                                    d="M98.17 94.694h24.608a2.051 2.051 0 0 0 0-4.1H98.17a2.051 2.051 0 0 0 0 4.1z"
+                                />
+                            </g>
+                            <g data-name="Group 1149">
+                                <g style="filter: url(#6u5a49k6da)">
+                                    <path
+                                        data-name="Union 1"
+                                        d="M-1980.109 110v-.148H-1990l9.891-10.816V10a10 10 0 0 1 10-10h311.735a10 10 0 0 1 10 10v90a10 10 0 0 1-10 10z"
+                                        transform="translate(2141.996 86.75)"
+                                        style="fill: #fff"
+                                    />
+                                </g>
+                                <path
+                                    data-name="Path 5"
+                                    d="M32.5 0A32.5 32.5 0 1 1 0 32.5 32.5 32.5 0 0 1 32.5 0z"
+                                    transform="translate(404.626 107.75)"
+                                    style="fill: #eeefef"
+                                />
+                                <g
+                                    data-name="Group 1141"
+                                    transform="translate(-378.374 -4980.25)"
+                                >
+                                    <rect
+                                        data-name="Rectangle 2184"
+                                        width="180"
+                                        height="8"
+                                        rx="4"
+                                        transform="translate(589 5103)"
+                                        style="fill: #eeefef"
+                                    />
+                                    <rect
+                                        data-name="Rectangle 2185"
+                                        width="140"
+                                        height="8"
+                                        rx="4"
+                                        transform="translate(629 5118)"
+                                        style="fill: #eeefef"
+                                    />
+                                    <rect
+                                        data-name="Rectangle 2186"
+                                        width="80"
+                                        height="8"
+                                        rx="4"
+                                        transform="translate(689 5133)"
+                                        style="fill: #eeefef"
+                                    />
+                                </g>
+                                <path
+                                    d="M20 20.971c4.288 0 7.765-3.911 7.765-8.735S24.288 3.5 20 3.5s-7.765 3.911-7.765 8.735 3.477 8.736 7.765 8.736zm-5.4 3.882c-4.543 0-10.315 3.364-11.062 7.953A3.15 3.15 0 0 0 6.6 36.5h26.8a3.15 3.15 0 0 0 3.056-3.694c-.747-4.589-6.519-7.953-11.062-7.953z"
+                                    transform="translate(417.126 118.25)"
+                                    style="fill-rule: evenodd; fill: #c8c8c8"
+                                />
+                            </g>
+                            <g data-name="Group 1150">
+                                <g style="filter: url(#k2oxhgyvvb)">
+                                    <path
+                                        data-name="Union 1"
+                                        d="M19.891 110a10 10 0 0 1-10-10V10.964L0 .148h9.891V0h321.735a10 10 0 0 1 10 10v90a10 10 0 0 1-10 10z"
+                                        transform="rotate(180 185.813 162.125)"
+                                        style="fill: #fff"
+                                    />
+                                </g>
+                                <g
+                                    data-name="Group 1144"
+                                    transform="translate(49.626 235.25)"
+                                >
+                                    <circle
+                                        data-name="Ellipse 1"
+                                        cx="32.5"
+                                        cy="32.5"
+                                        r="32.5"
+                                        style="fill: #eeefef"
+                                    />
+                                    <g
+                                        data-name="Group 1141"
+                                        transform="translate(79 15)"
+                                    >
+                                        <rect
+                                            data-name="Rectangle 2184"
+                                            width="180"
+                                            height="8"
+                                            rx="4"
+                                            style="fill: #eeefef"
+                                        />
+                                        <rect
+                                            data-name="Rectangle 2185"
+                                            width="140"
+                                            height="8"
+                                            rx="4"
+                                            transform="translate(0 15)"
+                                            style="fill: #eeefef"
+                                        />
+                                        <rect
+                                            data-name="Rectangle 2186"
+                                            width="80"
+                                            height="8"
+                                            rx="4"
+                                            transform="translate(0 30)"
+                                            style="fill: #eeefef"
+                                        />
+                                    </g>
+                                    <path
+                                        data-name="Path 2"
+                                        d="M28.655 33.366c4.965 0 9.154-6.32 9.207-13.828.282-.907 1.8-6.364-.907-10.123C35.319 7.153 32.528 6 28.655 6s-6.663 1.153-8.3 3.415c-2.7 3.759-1.188 9.216-.907 10.123.052 7.508 4.243 13.828 9.207 13.828zM22.74 15.595a3.844 3.844 0 0 1 3.618-2.473h4.595a3.844 3.844 0 0 1 3.618 2.473l1.54 3.952c-.062 6.443-3.521 12.059-7.456 12.059S21.261 25.99 21.2 19.547z"
+                                        transform="translate(3.844 4.749)"
+                                        style="fill: #c8c8c8"
+                                    />
+                                    <path
+                                        data-name="Path 3"
+                                        d="M38.669 45.59a.88.88 0 1 0 .011 0h-.011z"
+                                        transform="translate(1.566 .007)"
+                                        style="fill: #c8c8c8"
+                                    />
+                                    <path
+                                        data-name="Path 4"
+                                        d="m11.62 51.906 32.146-.158a.877.877 0 0 0 .88-.88v-1.426c0-5.253-3.388-9.729-8.533-11.683l.173 5.136a2.637 2.637 0 1 1-1.761.017l-.193-5.724-2.142-.633a.893.893 0 0 0-.915.255l-3.583 4.067-3.581-4.067a.893.893 0 0 0-.915-.255l-2.887.854a14.469 14.469 0 0 0-2.526 1.026l1.349 2.716a2.8 2.8 0 0 1 2.692 1.338l1.584 2.593a1.979 1.979 0 0 1-.918 2.854.88.88 0 1 1-.687-1.621A.219.219 0 0 0 21.9 46l-1.58-2.594a1.021 1.021 0 0 0-1.045-.507 1 1 0 0 0-.668.447.982.982 0 0 0-.123.78l.769 2.994a.214.214 0 0 0 .114.142.211.211 0 0 0 .182.005.881.881 0 0 1 .686 1.622 1.979 1.979 0 0 1-2.686-1.33l-.77-2.994a2.764 2.764 0 0 1 .342-2.162 2.711 2.711 0 0 1 .418-.5l-1.272-2.563a12.473 12.473 0 0 0-5.526 10.26v1.427a.876.876 0 0 0 .879.88z"
+                                        transform="translate(4.806 1.094)"
+                                        style="fill: #c8c8c8"
+                                    />
+                                </g>
+                            </g>
+                            <g data-name="Group 1151">
+                                <g style="filter: url(#i5pe6tdvkc)">
+                                    <circle
+                                        data-name="Ellipse 2"
+                                        cx="27"
+                                        cy="27"
+                                        r="27"
+                                        transform="translate(218.626 339)"
+                                        style="fill: #24bce3"
+                                    />
+                                </g>
+                                <path
+                                    d="M25.088 0 0 14.112l8.018 2.969L20.384 5.488l-9.406 12.69h.008-.009v6.91l4.5-5.246 5.7 2.11z"
+                                    transform="translate(232.626 353)"
+                                    style="fill: #fff"
+                                />
+                            </g>
+                            <g data-name="Group 1152">
+                                <g
+                                    data-name="Group 1146"
+                                    transform="translate(-1464.061 -790.687)"
+                                >
+                                    <circle
+                                        data-name="Ellipse 1388"
+                                        cx="13.5"
+                                        cy="13.5"
+                                        r="13.5"
+                                        transform="translate(1848.687 801.687)"
+                                        style="fill: #fff"
+                                    />
+                                    <path
+                                        data-name="Path 4687"
+                                        d="M225.375 814.643a3.435 3.435 0 0 0-.573-.61 2.569 2.569 0 0 0 .319-.481 3.778 3.778 0 0 0 .412-1.74 3.418 3.418 0 0 0-1.372-2.86 6 6 0 0 0-3.657-.942 6.707 6.707 0 0 0-1.706.178 2.819 2.819 0 0 0-1.2.618 2.218 2.218 0 0 0-.643 1.046 5.946 5.946 0 0 0-.184 1.026c-.022.226-.04.5-.051.811s-.019.644-.024.98l-.016 1.052a72.359 72.359 0 0 0 .016 2.947c.016.634.041 1.131.074 1.519v.011a6.1 6.1 0 0 0 .175.987 2.07 2.07 0 0 0 .631 1.021 2.781 2.781 0 0 0 1.154.577 6.466 6.466 0 0 0 1.632.169 8.242 8.242 0 0 0 2.6-.359 5.292 5.292 0 0 0 1.78-.96 3.619 3.619 0 0 0 1.026-1.391 3.924 3.924 0 0 0 .295-1.459 3.763 3.763 0 0 0-.17-1.113 3.448 3.448 0 0 0-.518-1.027zm-2.986-2.719a.538.538 0 0 1-.1.372 1.06 1.06 0 0 1-.419.3 3.212 3.212 0 0 1-.8.216 7.061 7.061 0 0 1-1.012.072h-.164v-1.471a.97.97 0 0 1 .022-.215.881.881 0 0 1 .177-.063 2.615 2.615 0 0 1 .651-.061 2.241 2.241 0 0 1 1.363.29.652.652 0 0 1 .282.56zm-2.495 4.946c0-.151 0-.326.008-.521s.012-.38.021-.607h.884a7.521 7.521 0 0 1 .924.058 2.522 2.522 0 0 1 .706.187.905.905 0 0 1 .37.289.817.817 0 0 1 .108.459.863.863 0 0 1-.41.814 3.282 3.282 0 0 1-1.746.37 3.214 3.214 0 0 1-.67-.054.447.447 0 0 1-.122-.041.253.253 0 0 1-.029-.08 2.619 2.619 0 0 1-.045-.548z"
+                                        transform="translate(1641.637 .707)"
+                                        style="fill: #24bce3"
+                                    />
+                                </g>
+                                <g
+                                    data-name="Group 1147"
+                                    transform="translate(-325.374 -5013)"
+                                >
+                                    <rect
+                                        data-name="Rectangle 2189"
+                                        width="102"
+                                        height="8"
+                                        rx="4"
+                                        transform="translate(598 5027)"
+                                        style="fill: #fff"
+                                    />
+                                    <rect
+                                        data-name="Rectangle 2190"
+                                        width="60"
+                                        height="8"
+                                        rx="4"
+                                        transform="translate(638 5041)"
+                                        style="fill: #fff"
+                                    />
+                                </g>
+                            </g>
+                            <text
+                                data-name="×"
+                                transform="translate(85.626 29)"
+                                style="
+                                    font-size: 16px;
+                                    font-family: SegoeUI-Bold, Segoe UI;
+                                    font-weight: 700;
+                                    fill: #fff;
+                                "
+                            >
+                                <tspan x="-5.656" y="0">×</tspan>
+                            </text>
+                        </g>
+                    </svg>

@@ -1,0 +1,132 @@
+/* error (404) */
+.p-error ~ .breadcrumb {
+    box-shadow: 0 1px 0 0 #ececec !important;
+}
+.p-error *,
+.p-error *:before,
+.p-error *:after {
+    border-color: #ececec;
+}
+
+.p-error .form-control {
+    padding-inline-start: 54px !important;
+    font-size: 0.875rem;
+    border: 1px solid #ececec !important;
+    min-height: 3.75rem;
+    height: 3.75rem;
+    font-weight: 500;
+}
+.dir-rtl .p-error .form-control {
+    font-weight: normal;
+}
+.p-error .form-group:before {
+    content: "";
+    pointer-events: none;
+    --size: 1rem;
+    width: var(--size);
+    min-width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    inset-inline-start: 1.5rem;
+    background-image: url("data:image/svg+xml,%3Csvg style='width: auto%3B height: 18px' fill='%23717171' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' %3E%3Cg transform='translate(0 0)'%3E%3Crect height='2' opacity='1' rx='1' transform='matrix(.70710678 .70710678 -.70710678 .70710678 15.85924 -6.861998)' width='8.15546' x='12.135054' y='14.712797' /%3E%3Cpath d='m8 16c-4.44444 0-8-3.5556-8-8 0-4.44444 3.55556-8 8-8 4.4444 0 8 3.55556 8 8 0 4.4444-3.5556 8-8 8zm0-14c-3.46667 0-6 2.53333-6 6 0 3.4667 2.53333 6 6 6 3.4667 0 6-2.5333 6-6 0-3.46667-2.5333-6-6-6z' /%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p-error .icon--search {
+    inset-inline-start: 1.5rem;
+}
+.p-error .mainContent {
+    padding-block: clamp(88px, 8vw, 176px);
+    min-height: 100vh;
+}
+.p-error .icon--error {
+    min-height: 82px;
+    height: 82px;
+}
+
+.p-error .graphic {
+    --w: 82px;
+    width: var(--w);
+    min-width: var(--w);
+    height: auto;
+    margin-inline: auto;
+}
+.p-error .graphic > * {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.p-error .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 1.75rem;
+    margin-top: 2.125rem;
+}
+.p-error .sub-heading {
+    font-size: 1rem;
+    line-height: normal;
+    font-weight: bold;
+    margin-bottom: 1.75rem;
+    margin-top: 3.25rem;
+}
+
+.p-error .actions {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.p-error .action {
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.7;
+    min-width: 160px;
+    max-width: 100%;
+    padding: 0.6875rem 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out,
+        border-color 150ms ease-in-out, opacity 150ms ease-in-out;
+    font-weight: 500;
+}
+
+.dir-rtl .p-error .action {
+    line-height: 1.9;
+    font-weight: normal;
+}
+
+.p-error .action:hover {
+    background-color: #f7b222;
+    border-color: #f7b222;
+    color: #000000;
+}
+.p-error .action:focus {
+    opacity: 0.7;
+}
+
+@media (min-width: 56.25em) {
+    .p-error .heading,
+    .p-error .sub-heading {
+        line-height: 1.7;
+    }
+    .dir-rtl .p-error .heading,
+    .dir-rtl .p-error .sub-heading {
+        line-height: 1.9;
+    }
+    .p-error .heading {
+        font-size: 1.875rem;
+    }
+    .p-error .sub-heading {
+        font-size: 1.125rem;
+    }
+}

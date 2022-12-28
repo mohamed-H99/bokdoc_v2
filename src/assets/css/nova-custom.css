@@ -1,0 +1,282 @@
+/*
+* Laravel Nova - BokDoc Custom Styling
+*/
+
+
+/*== Common
+======================= */
+
+.bokdoc-logo {
+    width: 104px;
+    height: auto;
+    margin: 4px auto 0;
+}
+
+.bokdoc-logo img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.bg-logo {
+    width: 100%;
+    background-color: var(--90);
+}
+
+.w-sidebar,
+.bg-grad-sidebar {
+    width: 280px;
+}
+
+.bg-grad-sidebar {
+    background-color: var(--20);
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.bg-grad-sidebar::-webkit-scrollbar {
+    width: 8px;
+    /* background-color: var(--40); */
+}
+
+.bg-grad-sidebar::-webkit-scrollbar-track-piece {
+    background-color: var(--40);
+}
+
+.bg-grad-sidebar::-webkit-scrollbar-track {
+    background-color: var(--50);
+}
+
+.bg-grad-sidebar::-webkit-scrollbar-thumb {
+    background-color: var(--60);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.16);
+    /* border-radius: 4px; */
+}
+
+.nova-dark-theme .bg-grad-sidebar::-webkit-scrollbar {
+    background-color: #06090f !important;
+}
+
+.nova-dark-theme .bg-grad-sidebar::-webkit-scrollbar-track-piece,
+.nova-dark-theme .bg-grad-sidebar::-webkit-scrollbar-track {
+    background-color: #121822 !important;
+}
+
+.nova-dark-theme .bg-grad-sidebar::-webkit-scrollbar-thumb {
+    background-color: #212836 !important;
+    box-shadow: none;
+}
+
+.nova-dark-theme .content.sticky-actions .card table.w-full tbody tr td {
+    background-color: transparent;
+}
+
+.nova-dark-theme .content.sticky-actions .card table.w-full tbody tr td:last-child::before {
+    border-color: var(--90);
+}
+
+body.fixed-sidebar .content {
+    padding-left: 280px;
+}
+
+html[lang="ar"] body.fixed-sidebar div.content {
+    padding-left: 0 !important;
+    padding-right: 280px !important;
+}
+
+@media screen and (max-width: 992px) {
+    body.fixed-sidebar .content,
+    html[lang="ar"] body.fixed-sidebar div.content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: 100%;
+    }
+}
+
+.w-sidebar > .sidemenu {
+    margin-bottom: 32px;
+}
+
+.top_level > a,
+.top_level li > a,
+.sidemenu .sidebar-dropdown > a .sidebar-label {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.top_level .text-white {
+    color: var(--black);
+}
+
+.top_level .resource-list-icon {
+    top: 1px !important;
+}
+
+.top_level .group > h4 {
+    margin-left: 0;
+    margin-right: 0 !important;
+    text-transform: unset !important;
+}
+
+.sidebar-label {
+    font-weight: bold !important;
+}
+
+.page-sidebar > a[href]:first-child {
+    display: block;
+}
+
+.page-sidebar > ul.list-reset:first-of-type {
+    display: none;
+}
+
+.page-sidebar .top_level ul li ul {
+    padding-top: 10px;
+}
+
+html[lang="ar"] .top_level .resource-list-icon {
+    left: unset !important;
+    right: -25px !important;
+}
+
+html[lang="ar"] .top_level .collapsible-indicator {
+    right: unset !important;
+    left: 0 !important;
+}
+
+.modal.fixed {
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.modal .w-action-fields {
+    width: 920px;
+}
+
+.nova-notifications-dropdown {
+    /*  */
+}
+
+
+/*== Dashboard
+======================= */
+
+/* [dusk="dashboard-main"] .card-panel-container .card-panel {
+    min-height: 200px;
+    height: auto;
+} */
+
+.card-panel {
+    min-height: 150px;
+    height: auto;
+}
+
+
+/*== Components
+======================= */
+
+.detached-filter h3 {
+    padding-bottom: 4px !important;
+}
+
+.detached-filter h3 + div {
+    padding-bottom: 16px;
+}
+
+.working-times-index-value {
+    min-width: 180px;
+    padding: 8px 0;
+}
+
+[dusk="services-data-index-component"] .nova-detached-filters-card.card-panel {
+    min-height: 444px;
+}
+
+[dusk="providers-index-component"] .nova-detached-filters-card.card-panel {
+    min-height: 276px;
+}
+
+.translatable-field > .flex:first-child > .ml-auto {
+    margin-left: 20%;
+    margin-right: 20% !important;
+}
+
+[dusk*="-detail-component"].mb-8 .translatable-field > .flex:first-child > .ml-auto {
+    margin-left: calc(25% - 12px);
+}
+
+html[lang="ar"]  [dusk*="-detail-component"].mb-8 .translatable-field > .flex:first-child > .ml-auto {
+    margin-right: calc(25% - 12px) !important;
+}
+
+.checkbox[type="radio"] {
+    border-radius: 100%;
+}
+
+.px-8.border-t-2 > h3.text-xl {
+    text-align: start !important;
+    font-weight: bold;
+}
+
+.px-6.py-3 .px-8.border-t-2.border-40:first-child {
+    border-color: transparent !important;
+}
+
+[dusk="providers-index-component"] .nova-big-filter-col {
+    width: 25%;
+}
+
+.send-notification-form #message {
+    min-height: 180px;
+}
+
+.multiselect__content-wrapper .multiselect__option--highlight {
+    background: var(--primary) !important;
+}
+
+/* ===== */
+.relationship-tabs-panel .tabs {
+    max-width: 50%;
+}
+
+.relationship-tabs-panel .tab-content > div > .relative > .flex {
+    max-width: 50%;
+}
+
+.dir-rtl .relationship-tabs-panel .tab-content > div > .relative > .flex {
+    justify-content: flex-end !important;
+    left: 0 !important;
+    right: unset !important;
+}
+
+.dir-rtl
+    .relationship-tabs-panel
+    .tab-content
+    > div
+    > .relative
+    > .flex
+    > .w-full {
+    margin-right: 1.5rem;
+    margin-left: unset;
+}
+
+.w-search {
+    width: 100% !important;
+}
+
+.relationship-tabs-panel .tab-content > div > .relative > .flex > .mb-6 {
+    width: 230px !important;
+}
+
+/*== Animations
+======================= */
+
+/* @keyframes showAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */

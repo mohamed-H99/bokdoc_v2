@@ -1,0 +1,183 @@
+/* help */
+.p-help {
+    padding: 1.25rem 0 2.8125rem;
+}
+.p-help .help-card {
+    padding: 1.875rem 1.875rem 1.25rem;
+    width: min(calc(100% - 2.5rem), 500px);
+    margin-inline: auto;
+}
+.p-help .help-card__heading {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 1.875rem;
+    display: block;
+}
+.p-help .help-card__btn {
+    margin-top: 1.125rem;
+}
+.p-help .help-card__text {
+    font-size: 0.875rem;
+    line-height: calc(1.625rem + 1px);
+    margin-top: 1.5rem;
+}
+.p-help .help-card__msg {
+    --border-color: transparent;
+    border: 2px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9375rem;
+}
+.p-help .help-card__msg-icon {
+    aspect-ratio: 1;
+}
+.p-help .help-card__msg-text {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    font-weight: normal;
+}
+.p-help .help-card__msg.error {
+    --border-color: #ff0000;
+    --bg-color: #ffe9e9;
+    --txt-color: var(--border-color);
+}
+.p-help .help-card__msg.success {
+    --border-color: #067d62;
+    --bg-color: transparent;
+    --txt-color: var(--border-color);
+}
+
+@media (min-width: 48em) {
+    .p-help {
+        padding: 1.875rem 0 55px;
+    }
+    .p-help .help-card {
+        padding: 2.5rem 2.5rem 1.875rem;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .p-help {
+        padding: 3.125rem 0 75px;
+    }
+    .p-help .help-card {
+        padding: 3.125rem 3.125rem 2.5rem;
+    }
+}
+
+/* add-answer */
+#add-answer .form-control {
+    border-width: 1px !important;
+    padding: 1rem 1.25rem !important;
+}
+#add-answer .help-card__btn {
+    margin-top: 1.125rem;
+}
+#add-answer .help-card__text {
+    margin-top: 2.1875rem;
+}
+
+@media (min-width: 56.25em) {
+    #add-answer .form-control {
+        padding: 1.375rem 1.625rem !important;
+    }
+}
+
+/* answered */
+#answered.help-card {
+    background-color: #f2fffc;
+}
+#answered .help-card__msg {
+    margin: 2.1875rem 01.75rem;
+}
+#answered .help-card__msg-icon--wrapper {
+    width: 1.5625rem;
+    min-width: 1.5625rem;
+    height: 1.5625rem;
+    background-color: #439d88;
+}
+#answered .help-card__msg-icon {
+    filter: invert(1);
+}
+
+/* answer-question */
+#answer-question .help-card__heading {
+    margin-bottom: 2.375rem;
+}
+#answer-question .help-card__q {
+    background-color: #fff7e8;
+    padding: 1rem 1.25rem;
+}
+#answer-question .help-card__avatar {
+    min-width: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-inline-end: 0.625rem;
+}
+
+@media (min-width: 56.25em) {
+    #answer-question .help-card__q {
+        padding: 1.375rem 1.625rem;
+    }
+}
+
+/* no-answer */
+#no-answer.help-card {
+    padding: 1.625rem 36px !important;
+}
+#no-answer .help-card__heading {
+    margin: 0 0 0.5rem !important;
+}
+#no-answer .help-card__subheading {
+    font-size: 0.875rem;
+    line-height: calc(1.625rem + 1px);
+    margin-bottom: calc(1.625rem + 1px);
+}
+#no-answer .help-card__btn {
+    margin-top: 1.75rem !important;
+}
+#no-answer .help-form-group {
+    margin-bottom: 1.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.625rem;
+}
+#no-answer .help-form-group:last-child {
+    margin-bottom: 0;
+}
+#no-answer .help-card-group label {
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: calc(1.625rem + 1px);
+}
+#no-answer .help-form-group input[type="radio"] {
+    width: 1.25rem;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    padding: 0 !important;
+    accent-color: var(--primary);
+    background-color: transparent;
+    border: 1px solid #c1c1c1 !important;
+}
+#no-answer .help-form-group input[type="radio"]:checked {
+    background-color: currentColor;
+    border-color: currentColor !important;
+}
+
+@media (min-width: 56.25em) {
+    #no-answer.help-card {
+        padding: 36px 46px !important;
+    }
+}

@@ -1,0 +1,43 @@
+/* faq */
+.p-faq ~ .breadcrumb {
+    box-shadow: 0 1px 0 0 #ececec !important;
+}
+
+.p-faq {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.p-faq .list {
+    margin-block: 1.5625rem;
+}
+.p-faq .list li {
+    width: 100%;
+}
+.p-faq .c-btn {
+    min-height: 2.1875rem;
+    height: 2.1875rem;
+}
+.p-faq .content {
+    padding: 1.25rem 1rem;
+}
+
+@media (min-width: 48em) {
+    .p-faq {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .p-faq .list {
+        margin-block: 3rem;
+    }
+    /* .p-faq .content {
+        padding: 1.5rem 1.25rem;
+    } */
+}
+
+@media (min-width: 56.25rem) {
+    .p-faq {
+        padding-top: 3.875rem;
+        padding-bottom: 4.375rem;
+    }
+}
